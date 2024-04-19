@@ -25,7 +25,42 @@
          </div>
          <div class="card-body">
 
+           <form method="post" action="#" accept-charset="utf-8">
+
+            <div class="col-10 form-group" style="text-align: center">
+              <label><b>Select Company</label>
+                <select class="selectpicker form-control" id="company" name="company" required="1">
+                    <option value=""></option>
+                </select>
          </div>
+            <div class="col-10 form-group" style="text-align: center">
+              <label>Select Model</label>
+                <select class="selectpicker form-control" id="car_model" name="car_model" required="1">
+                    <option value=""></option>
+                </select>
+         </div>
+            <div class="col-10 form-group" style="text-align: center">
+              <label>Select Year of Purchase</label>
+                <select class="selectpicker form-control" id="year" name="year" required="1">
+                    <option value=""></option>
+                </select>
+         </div>
+            <div class="col-10 form-group" style="text-align: center">
+              <label>Select Fuel Type </label>
+                <select class="selectpicker form-control" id="fuel_type" name="fuel_type" required="1">
+                    <option value=""></option>
+                </select>
+         </div>
+            <div class="col-10 form-group" style="text-align: center">
+              <label>Enter number of Kilometers Travelled </label>
+                <input class="form-control" type="text" id="kilo_driven" name="kilo_driven" placeholder="Enter no. of kilometers travelled">
+
+         </div>
+         <div class="col-10 form-group" style="text-align: center">
+             <button class="btn btn-primary form-control" onclick="">Predict Price</button>
+         </div>
+
+             </form>
        </div>
      </div>
    </div>
